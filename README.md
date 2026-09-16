@@ -1,4 +1,4 @@
-# ☕ Pemrograman Berorientasi Objek (OOP) - Semester 3
+# ☕ Pemrograman Berorientasi Objek (OOP) - Semester 3 (Belum Praktikum)
 
 Repositori ini adalah jurnal perjalanan dan tempat penyimpanan kode untuk mata kuliah Pemrograman Berorientasi Objek (OOP) di semester 3.Karena Laptop saya bakal mati kalo kesenggol dikit,maka saya harus selalu menyimpan kode saya secara online
 
@@ -6,7 +6,7 @@ Repositori ini adalah jurnal perjalanan dan tempat penyimpanan kode untuk mata k
 
 Selama semester ini, basis kode di dalam repositori akan mencakup pilar-pilar inti OOP:
 
-*   **Class, Object & Constructor:** Mendesain cetak biru entitas (seperti `BangunRuang` dan `BankAccount`) dan menginisialisasi objek ke dalam memori.
+*   **Class, Object & Constructor:** Mendesain cetak biru entitas dan menginisialisasi objek ke dalam memori.
 *   **Encapsulation (Pembungkusan):** Melindungi data internal menggunakan *access modifier* `private` serta membangun jembatan interaksi yang aman melalui metode *Getter* dan *Setter*.
 *   **Inheritance (Pewarisan):** Mengoptimalkan penggunaan ulang kode (*code reusability*) dari *Superclass* ke *Subclass*.
 *   **Polymorphism (Banyak Bentuk):** Mengontrol perilaku metode yang dinamis melalui teknik *Overloading* dan *Overriding*.
@@ -15,7 +15,6 @@ Selama semester ini, basis kode di dalam repositori akan mencakup pilar-pilar in
 
 *   `/TugasMingguan` - Kumpulan latihan dasar mingguan (contoh: kalkulator bangun ruang, sistem deposit bank).
 *   `/ProjekGabut` - Proyek mini yang menguji implementasi logika *looping* (`while-true`) dan *Error Handling*.
-*   `/TugasAkhir` - Direktori utama untuk tugas final komprehensif di akhir semester.
 
 ## 🚀 Cara Menjalankan Program Lokal
 

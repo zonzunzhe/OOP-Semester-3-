@@ -1,14 +1,19 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 public class BankAccountDemo{
     public static void main(String[] args) {
         BankAccount account=new BankAccount(100000.0);
+        ArrayList<String> name = new ArrayList<String>();
+        name.add("Ada");
+        name.add("Wong");
         Scanner input = new Scanner(System.in);
         while (true) { 
             System.out.println("Your Balance :" + account.getCurrentBalance());
+            System.out.println("Total Valid Transactions :" + BankAccount.getValidTransactionCount());
             System.out.println("1. Deposito");
             System.out.println("2. Withdraw");
             System.out.println("0. Exit");
-            System.out.println("Chose Your Action :");
+            System.out.println(name.get(0));
             int option = input.nextInt();
             if (option == 1){
                 System.out.println("Input Deposito :");

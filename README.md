@@ -22,14 +22,12 @@ Selama semester ini, basis kode di dalam repositori akan mencakup pilar-pilar in
 2. *Clone* repositori ini ke lokal komputermu:
    ```bash
    git clone [https://github.com/](https://github.com/)[username-kamu]/[nama-repo-kamu].git
-```
 3. Buka terminal/CMD dan masuk ke dalam folder letak file Java yang ingin dieksekusi:
    e.g.
-```bash 
+   ```bash 
    cd Tugas_Mingguan/BankSystem
-```
  * Lakukan kompilasi untuk mengubah kode sumber menjadi bytecode:
-```bash
+   ```bash
    javac BankAccountDemo.java
 ```
  * Jalankan program hasil kompilasi:

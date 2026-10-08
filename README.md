@@ -29,8 +29,8 @@ Selama semester ini, basis kode di dalam repositori akan mencakup pilar-pilar in
  * Lakukan kompilasi untuk mengubah kode sumber menjadi bytecode:
    ```bash
    javac BankAccountDemo.java
-```
+   ```
  * Jalankan program hasil kompilasi:
-```bash 
+   ```bash 
    java BankAccountDemo
-```
+   ```

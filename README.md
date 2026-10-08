@@ -13,8 +13,8 @@ Selama semester ini, basis kode di dalam repositori akan mencakup pilar-pilar in
 
 ## 📂 Struktur Repositori
 
-*   `/TugasMingguan` - Kumpulan latihan dasar mingguan (contoh: kalkulator bangun ruang, sistem deposit bank).
-*   `/ProjekGabut` - Proyek mini yang menguji implementasi logika *looping* (`while-true`) dan *Error Handling*.
+*   `/TugasMingguan` - Kumpulan latihan dasar mingguan.
+*   `/ProjekGabut` - Proyek mini yang menguji implementasi logika.
 
 ## 🚀 Cara Menjalankan Program Lokal
 

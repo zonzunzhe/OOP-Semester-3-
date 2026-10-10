@@ -1,4 +1,4 @@
-public class BankAccount{
+public class BankAccount {
     private double current_balance;
     private static int validTransactionCount = 0;
 
@@ -8,15 +8,18 @@ public class BankAccount{
         }
         this.current_balance = current_balance;
     }
+
     public double getCurrentBalance(){
         return this.current_balance;
     }
+
     public void setCurrentBalance(double balance){
         if (balance < 0) {
             throw new IllegalArgumentException("Balance cannot be negative");
         }
-        this.current_balance=balance;
+        this.current_balance = balance;
     }
+
     public double deposito(double balance){
         if (balance <= 0) {
             throw new IllegalArgumentException("Deposit must be greater than zero");
@@ -24,6 +27,7 @@ public class BankAccount{
         validTransactionCount++;
         return balance + getCurrentBalance();
     }
+
     public double withdraw(double balance){
         if (balance <= 0) {
             System.err.println("Withdrawal must be greater than zero");
@@ -31,15 +35,19 @@ public class BankAccount{
         }
         if (balance <= getCurrentBalance()){
             validTransactionCount++;
-            return  getCurrentBalance() - balance;
+            return getCurrentBalance() - balance;
         }
         else {
-            System.err.println("Insuficient Balance");
+            System.err.println("Insufficient Balance");
             return this.current_balance;
         }
     }
 
     public static int getValidTransactionCount() {
         return validTransactionCount;
+    }
+
+    public void printInfo() {
+        System.out.println("Akun Reguler | Saldo: " + this.current_balance);
     }
 }
